@@ -1,9 +1,15 @@
 import React from 'react';
+import {Button} from 'react-bootstrap';
+import './Header.css';
 
-
- const Header = () => { 
+const Header = () => { 
     return (
-        <h1>Hello</h1>
+     <div className="button-group">
+        <Button bsStyle="primary" >Home</Button>
+        &nbsp;
+        <Button bsStyle="primary">Gallery</Button>
+        <p>Follow Me To Travel Around CANADA</p>
+     </div>   
     )
 };
 
