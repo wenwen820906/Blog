@@ -1,0 +1,24 @@
+.section{
+    height: 60rem;
+    margin: 5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#section1{
+    background-image: url("./img/main1.jpeg");
+}
+#section2{
+    background-image: url("./img/main1.jpeg");
+}
+#section3{
+    background-image: url("./img/main1.jpeg");
+}
+#section4{
+    background-image: url("./img/main1.jpeg");
+}
