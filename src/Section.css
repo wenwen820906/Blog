@@ -1,6 +1,6 @@
 .section{
     height: 60rem;
-    margin: 5rem;
+    margin: 3rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -8,17 +8,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
 #section1{
-    background-image: url("./img/main1.jpeg");
+    background-image: url("./img/shoes.jpg");
 }
 #section2{
-    background-image: url("./img/main1.jpeg");
+    background-image: url("./img/city.jpg");
 }
 #section3{
-    background-image: url("./img/main1.jpeg");
+    background-image: url("./img/lake.jpg");
 }
 #section4{
-    background-image: url("./img/main1.jpeg");
+    background-image: url("./img/bullon.jpg");
+}
+
+.more{
+    margin:2rem;
 }
