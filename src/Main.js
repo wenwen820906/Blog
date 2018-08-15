@@ -6,22 +6,22 @@ const Main = () => {
     return(
         <div id="main">
             <Section
-                country='Canada'
+                city='Canada'
                 title='The First Time'
                 id='section1'
             />
             <Section
-                country='Kelowna'
+                city='Kelowna'
                 title='The First Time'
                 id='section2'
             />
             <Section
-                country='Lake Louise'
+                city='Lake Louise'
                 title='The First Time'
                 id='section3'
             />
             <Section
-                country='East of Canada'
+                city='East of Canada'
                 title='The First Time'
                 id='section4'
             />

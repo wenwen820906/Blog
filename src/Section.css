@@ -23,6 +23,20 @@
     background-image: url("./img/bullon.jpg");
 }
 
-.more{
-    margin:2rem;
+.content{
+    margin: 5rem;
+    height: 10rem;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 80%;
 }
+.link:link {
+    text-decoration: none; }
+.link {
+    color:black; }
+.link:hover {
+    cursor: pointer;
+    color:grey; } 
+.link:active {
+    color: black; }
+  

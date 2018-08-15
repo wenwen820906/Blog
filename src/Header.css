@@ -1,14 +1,24 @@
-.button-group{
+.backgroundcol{
     
-    text-align: center;
-    background-image: url("./img/sky.jpg");
+    text-align:left;
+    background-color: #d3cece;
+    -webkit-text-fill-color:#fafafa;
     height: 20rem;
-    margin: 5rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin: 3rem;
+    margin-top:0rem;
+    margin-bottom: 0rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    opacity: 60%;
+}
+.nav{
+    font-size: 120%;
+}
+.navbar{
+    margin: 1rem;
+}
+.text{
+    margin: 3rem;
+    margin-top:0rem;
 }
