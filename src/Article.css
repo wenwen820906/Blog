@@ -1,0 +1,82 @@
+.section{
+    border-radius: 15%; 
+}
+.section1 :nth-child(1) div.image{
+    background-image: url("./img/snow.JPG");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section1 :nth-child(2) div.image{
+    background-image: url("./img/ski.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section1 :nth-child(3) div.image{
+    background-image: url("./img/movie.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section1 :nth-child(4) div.image{
+    background-image: url("./img/camp.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section2 :nth-child(1) div.image{
+    background-image: url("./img/home.JPG");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section2 :nth-child(2) div.image{
+    background-image: url("./img/okanagan.JPG");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section2 :nth-child(3) div.image{
+    background-image: url("./img/horses.JPG");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.section2 :nth-child(4) div.image{
+    background-image: url("./img/marybrown.JPG");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.image{
+    border-radius: 20%; 
+    width:30rem;
+    height: 30rem;
+    margin:3rem;
+    float:left;
+    border: 9px #f8b500 solid;
+
+}
+.text{
+    margin: 5rem;
+    height: 30rem;
+    float:left;
+    max-width: 35rem;
+    text-align: left;
+}
+.col{
+    align-content: center;
+    margin-left: 10rem;
+}
+.changepage a{
+    position: relative;
+    bottom: 1rem;
+    border: 3px solid #5c636e;
+    align-content: center;
+    background-color: #5c636e;
+    padding: 1rem;
+    margin:1rem;
+    border-radius: 20%; 
+    font-size:20px;
+    color:#f7f7f7;
+}
+.changepage a:hover{
+    color: #f8b500;
+    text-decoration: none;
+}
+.changepage a:focus{
+    text-decoration: none;
+}
