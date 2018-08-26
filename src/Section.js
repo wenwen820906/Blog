@@ -9,7 +9,7 @@ class Section extends React.Component {
             <Link to={`/article?id=${this.props.id}`} className='link' >
                 <div className='section' id={this.props.id}>
                     <div className='content'>
-                        <h1>{this.props.city} {this.props.title} </h1>         
+                        <h2>{this.props.title}{this.props.city} </h2>         
                     </div>    
                 </div>
             </Link>

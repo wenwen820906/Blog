@@ -4,7 +4,6 @@ import Main from './Main';
 import './App.css';
 import {Route,Switch} from 'react-router-dom';
 import Article from './Article';
-import { Col,Grid,Navbar,Nav,NavItem } from 'react-bootstrap';
 
 const Wrapper = () => {
   return (
@@ -19,19 +18,10 @@ const Wrapper = () => {
 class App extends Component {
   render() {
     return (
-      <Grid>
-      <Col md={1}>
-      </Col>
-
-      <Col md={10}>
+     <div className='app'>
         <Header />
         <Wrapper />
-      </Col>
-
-      <Col md={1}>
-      </Col>
-
-    </Grid>
+     </div>
     );
   }
 }

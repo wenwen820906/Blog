@@ -7,22 +7,22 @@ const Main = () => {
         <div id="main">
             <Section
                 city='Canada'
-                title='The First Time'
+                title='The First Time In '
                 id='section1'
             />
             <Section
                 city='Kelowna'
-                title='The First Time'
+                title='My Life In '
                 id='section2'
             />
             <Section
                 city='Lake Louise'
-                title='The First Time'
+                title='The Backyard .'
                 id='section3'
             />
             <Section
                 city='East of Canada'
-                title='The First Time'
+                title='Head To '
                 id='section4'
             />
         </div>

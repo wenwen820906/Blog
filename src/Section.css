@@ -1,31 +1,36 @@
 .section{
-    height: 60rem;
-    margin: 3rem;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 50rem;
+    margin: 1rem;
+    width: 40rem;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 9px #f8b500 solid;
     text-align: center; 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     
 }
 #section1{
-    background-image: url("./img/shoes.jpg");
+    background-image: url("./img/shoes.png");
 }
 #section2{
-    background-image: url("./img/city.jpg");
+    background-image: url("./img/street.JPG");
 }
 #section3{
-    background-image: url("./img/lake.jpg");
+    background-image: url("./img/louise.png");
 }
 #section4{
-    background-image: url("./img/bullon.jpg");
+    background-image: url("./img/castle.png");
 }
 
 .content{
     margin: 5rem;
     height: 10rem;
+    width:30rem;
     background-color: white;
     opacity: 0.6;
     border-radius: 80%;
@@ -33,10 +38,9 @@
 .link:link {
     text-decoration: none; }
 .link {
-    color:black; }
+    color:#393e46; }
 .link:hover {
     cursor: pointer;
     color:grey; } 
-.link:active {
-    color: black; }
+
   
