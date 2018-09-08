@@ -50,10 +50,10 @@ const Header = () => {
         </div>
         <div className='backgroundcol'>
             <div className='texts'>
-            <h1>Follow Me To Travel Around CANADA</h1>
-            <h3>In 2016, I went to CANADA for working holiday.</h3>
-            <h3>And this is the memory of my trip.</h3>
-            <h3>Hope you guys enjoy it!</h3>
+            <h1>Follow Me To Travel Around CANADA</h1><hr/>
+            <p>In 2016, I went to CANADA for working holiday.</p>
+            <p>And this is the memory of my trip .</p>
+            <p>Hope you guys enjoy it!</p>
             </div>
         </div>    
      </div>   
