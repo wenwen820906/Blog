@@ -29,18 +29,19 @@
 
 .content{
     margin: 5rem;
-    height: 10rem;
-    width:30rem;
-    background-color: white;
-    opacity: 0.6;
-    border-radius: 80%;
+    height: 8rem;
+    width: 100%;
+    background: rgba(0%,0%,0%,0.7);
 }
 .link:link {
     text-decoration: none; }
 .link {
-    color:#393e46; }
-.link:hover {
+    color: #f7f7f7;
+}
+.link:hover .content{
     cursor: pointer;
-    color:grey; } 
+    background: rgba(0%,0%,0%,0.3);
+    color: #f7f7f7;
+} 
 
   

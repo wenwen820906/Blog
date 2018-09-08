@@ -23,25 +23,26 @@ const Header = () => {
                      Home
                     </NavItem>
                 </IndexLinkContainer>
+                
+                <NavDropdown eventKey={2} title="Articles" id="basic-nav-dropdown">
+                    <LinkContainer to="/article?id=section1">
+                        <MenuItem eventKey={2.1}>The First Time In Canada</MenuItem>
+                    </LinkContainer>
+                    <LinkContainer to="/article?id=section2">
+                        <MenuItem eventKey={2.2}>My Life In Kelowna</MenuItem>
+                    </LinkContainer>
+                    <LinkContainer to="/article?id=section3">
+                        <MenuItem eventKey={2.3}>The Backyard Lake Louise</MenuItem>
+                    </LinkContainer>
+                    <LinkContainer to="/article?id=section4">
+                        <MenuItem eventKey={2.4}>Head To East Of Canada</MenuItem>
+                    </LinkContainer>
+                </NavDropdown>
                 <LinkContainer to="/gallery"> 
-                     <NavItem eventKey={2}>
+                     <NavItem eventKey={3}>
                      Gallery
                     </NavItem>
                  </LinkContainer>
-                <NavDropdown eventKey={3} title="Articles" id="basic-nav-dropdown">
-                    <LinkContainer to="/article?id=section1">
-                        <MenuItem eventKey={3.1}>The First Time In Canada</MenuItem>
-                    </LinkContainer>
-                    <LinkContainer to="/article?id=section2">
-                        <MenuItem eventKey={3.2}>My Life In Kelowna</MenuItem>
-                    </LinkContainer>
-                    <LinkContainer to="/article?id=section3">
-                        <MenuItem eventKey={3.3}>The Backyard Lake Louise</MenuItem>
-                    </LinkContainer>
-                    <LinkContainer to="/article?id=section4">
-                        <MenuItem eventKey={3.4}>Head To East Of Canada</MenuItem>
-                    </LinkContainer>
-                </NavDropdown>
              </Nav>
         </Navbar.Collapse>
         
