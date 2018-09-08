@@ -5,6 +5,7 @@ import './App.css';
 import {Route,Switch} from 'react-router-dom';
 import Article from './Article';
 import Gallerys from './Gallery';
+import Footer from './Footer';
 
 const Wrapper = () => {
   return (
@@ -24,6 +25,7 @@ class App extends Component {
      <div className='app'>
         <Header />
         <Wrapper />
+        <Footer/>
      </div>
 
     );
