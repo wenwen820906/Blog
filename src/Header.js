@@ -11,7 +11,7 @@ const Header = () => {
        
         <Navbar.Header>
             <Navbar.Brand>
-                <a href="#brand">My Trip</a>
+                My Trip
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
