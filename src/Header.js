@@ -18,27 +18,27 @@ const Header = () => {
 
         <Navbar.Collapse>
             <Nav>
-                <IndexLinkContainer to="/"> 
+                <IndexLinkContainer to="/Blog"> 
                     <NavItem eventKey={1}>
                      Home
                     </NavItem>
                 </IndexLinkContainer>
                 
                 <NavDropdown eventKey={2} title="Articles" id="basic-nav-dropdown">
-                    <LinkContainer to="/article?id=section1">
+                    <LinkContainer to="/Blog/article?id=section1">
                         <MenuItem eventKey={2.1}>The First Time In Canada</MenuItem>
                     </LinkContainer>
-                    <LinkContainer to="/article?id=section2">
+                    <LinkContainer to="/Blog/article?id=section2">
                         <MenuItem eventKey={2.2}>My Life In Kelowna</MenuItem>
                     </LinkContainer>
-                    <LinkContainer to="/article?id=section3">
+                    <LinkContainer to="/Blog/article?id=section3">
                         <MenuItem eventKey={2.3}>The Backyard Lake Louise</MenuItem>
                     </LinkContainer>
-                    <LinkContainer to="/article?id=section4">
+                    <LinkContainer to="/Blog/article?id=section4">
                         <MenuItem eventKey={2.4}>Head To East Of Canada</MenuItem>
                     </LinkContainer>
                 </NavDropdown>
-                <LinkContainer to="/gallery"> 
+                <LinkContainer to="/Blog/gallery"> 
                      <NavItem eventKey={3}>
                      Gallery
                     </NavItem>

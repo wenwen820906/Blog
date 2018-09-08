@@ -11,9 +11,9 @@ const Wrapper = () => {
   return (
       <main >
           <Switch>
-              <Route exact path='/' component={Main} />
-              <Route path='/article' component={Article} />
-              <Route path='/gallery' component={Gallerys} />
+              <Route exact path='/Blog' component={Main} />
+              <Route path='/Blog/article' component={Article} />
+              <Route path='/Blog/gallery' component={Gallerys} />
           </Switch>
       </main>
   )

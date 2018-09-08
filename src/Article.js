@@ -107,12 +107,12 @@ class Article extends Component {
                 </div>         
                     <div className='changepage'>
                         <div style={(article ==='section1')?{visibility:'hidden'}:{visibility:'visible'}}>
-                            <Link to={`/article?id=section${sn-1}`}>
+                            <Link to={`/Blog/article?id=section${sn-1}`}>
                             Last
                             </Link>
                         </div>
                         <div style={(article ==='section4')?{visibility:'hidden'}:{visibility:'visible'}}>
-                            <Link to={`/article?id=section${sn+1}`}>
+                            <Link to={`/Blog/article?id=section${sn+1}`}>
                             Next
                             </Link>
                         </div>
